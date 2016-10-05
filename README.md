@@ -10,7 +10,7 @@ To build PureNexus from source, you'll need to be familiar with
 
 To initialize your local repository, use this command:
 
-	repo init -u ssh://git@github.com/PureNexus/manifest.git -b n
+	repo init -u https://github.com/PureNexusProject/manifest.git -b n
 
 Then to sync source, use this command:
 
@@ -24,7 +24,7 @@ After syncing is done, use these commands to build:
     xxxx= device name aka shamu
     yyyy= build type (user,userdebug,eng)*
 
-    *if no build type is specified "user" is default
+    *if no build type is specified "userdebug" is default
 
 Enjoy, Stick around for a while AOSP Building is Fun!!!
 
